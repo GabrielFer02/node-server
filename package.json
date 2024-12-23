@@ -1,0 +1,33 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": "",
+  "contributors": [],
+  "scripts": {
+    "dev": "node --watch server.js",
+    "test": ""
+  },
+  "dependencies": {
+    "fastify": "^5.2.0",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
