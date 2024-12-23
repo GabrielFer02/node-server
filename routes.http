@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-server-pq93.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET  http://localhost:3333/videos
+GET  https://node-server-pq93.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/ce54deaa-6ddc-47ff-b382-c2885fed2ab6
+PUT https://node-server-pq93.onrender.com/videos/1b4abbfa-08ac-42be-941c-2f312d41870a
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/ce54deaa-6ddc-47ff-b382-c2885fed2ab6
+DELETE https://node-server-pq93.onrender.com/videos/1b4abbfa-08ac-42be-941c-2f312d41870a
